@@ -35,9 +35,7 @@ export const ImageUploader: React.FC<ImageUploaderProps> = ({ onImageUpload }) =
 
 
   return (
-    <div className="text-center max-w-2xl mx-auto p-8 bg-white/50 rounded-xl border-2 border-dashed border-gray-300 shadow-sm">
-      <h2 className="text-2xl font-semibold text-gray-800 mb-2">Upload Your Image</h2>
-      <p className="text-gray-600 mb-6">Let our AI create a professional version of your photo.</p>
+    <div className="text-center max-w-2xl mx-auto p-4 bg-white/50 rounded-xl border-2 border-dashed border-gray-300 shadow-sm">
       <label
         htmlFor="file-upload"
         onDragEnter={handleDrag}
